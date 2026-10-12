@@ -1,0 +1,106 @@
+== G(2,2,1), r = 5; A=['x1', 'x2', 'p1'] B=['y1', 'y2', 'q1'] C=['z11', 'z12', 'z21', 'z22', 'z0']
+symmetry: {'dim_stab': 10, 'dim_torus': 6, 'dim_g0': 6, 'n_pos': 2, 'dim_check': 10}
+  positive root vector: -1*x2<-x1, 1*z11<-z21, 1*z12<-z22
+  positive root vector: -1*y2<-y1, 1*z11<-z12, 1*z21<-z22
+  candidates (1, 1, 0): 1  {'total': 9, 'target': 4, 'dimW': 4, 'forced': True}
+  candidates (1, 0, 1): 8  {'total': 15, 'target': 10, 'dimW': 12, 'n': 8}
+  candidates (0, 1, 1): 8  {'total': 15, 'target': 10, 'dimW': 12, 'n': 8}
+   (111) test (0, 0, 0): dim 39, allowed <= 40 PASS
+   (111) test (0, 0, 1): dim 41, allowed <= 40 fail
+   (111) test (0, 0, 2): dim 43, allowed <= 40 fail
+   (111) test (0, 0, 3): dim 43, allowed <= 40 fail
+   (111) test (0, 0, 4): dim 41, allowed <= 40 fail
+   (111) test (0, 0, 5): dim 42, allowed <= 40 fail
+   (111) test (0, 0, 6): dim 43, allowed <= 40 fail
+   (111) test (0, 0, 7): dim 43, allowed <= 40 fail
+   (111) test (0, 1, 0): dim 41, allowed <= 40 fail
+   (111) test (0, 1, 1): dim 41, allowed <= 40 fail
+   (111) test (0, 1, 2): dim 42, allowed <= 40 fail
+   (111) test (0, 1, 3): dim 42, allowed <= 40 fail
+   (111) test (0, 1, 4): dim 42, allowed <= 40 fail
+   (111) test (0, 1, 5): dim 42, allowed <= 40 fail
+   (111) test (0, 1, 6): dim 42, allowed <= 40 fail
+   (111) test (0, 1, 7): dim 43, allowed <= 40 fail
+   (111) test (0, 2, 0): dim 43, allowed <= 40 fail
+   (111) test (0, 2, 1): dim 42, allowed <= 40 fail
+   (111) test (0, 2, 2): dim 41, allowed <= 40 fail
+   (111) test (0, 2, 3): dim 42, allowed <= 40 fail
+   (111) test (0, 2, 4): dim 43, allowed <= 40 fail
+   (111) test (0, 2, 5): dim 42, allowed <= 40 fail
+   (111) test (0, 2, 6): dim 42, allowed <= 40 fail
+   (111) test (0, 2, 7): dim 43, allowed <= 40 fail
+   (111) test (0, 3, 0): dim 43, allowed <= 40 fail
+   (111) test (0, 3, 1): dim 42, allowed <= 40 fail
+   (111) test (0, 3, 2): dim 42, allowed <= 40 fail
+   (111) test (0, 3, 3): dim 41, allowed <= 40 fail
+   (111) test (0, 3, 4): dim 43, allowed <= 40 fail
+   (111) test (0, 3, 5): dim 42, allowed <= 40 fail
+   (111) test (0, 3, 6): dim 42, allowed <= 40 fail
+   (111) test (0, 3, 7): dim 43, allowed <= 40 fail
+   (111) test (0, 4, 0): dim 41, allowed <= 40 fail
+   (111) test (0, 4, 1): dim 42, allowed <= 40 fail
+   (111) test (0, 4, 2): dim 43, allowed <= 40 fail
+   (111) test (0, 4, 3): dim 43, allowed <= 40 fail
+   (111) test (0, 4, 4): dim 41, allowed <= 40 fail
+   (111) test (0, 4, 5): dim 41, allowed <= 40 fail
+   (111) test (0, 4, 6): dim 42, allowed <= 40 fail
+   (111) test (0, 4, 7): dim 41, allowed <= 40 fail
+   (111) test (0, 5, 0): dim 42, allowed <= 40 fail
+   (111) test (0, 5, 1): dim 42, allowed <= 40 fail
+   (111) test (0, 5, 2): dim 42, allowed <= 40 fail
+   (111) test (0, 5, 3): dim 42, allowed <= 40 fail
+   (111) test (0, 5, 4): dim 41, allowed <= 40 fail
+   (111) test (0, 5, 5): dim 40, allowed <= 40 PASS
+   (111) test (0, 5, 6): dim 41, allowed <= 40 fail
+   (111) test (0, 5, 7): dim 40, allowed <= 40 PASS
+   (111) test (0, 6, 0): dim 43, allowed <= 40 fail
+   (111) test (0, 6, 1): dim 42, allowed <= 40 fail
+   (111) test (0, 6, 2): dim 42, allowed <= 40 fail
+   (111) test (0, 6, 3): dim 42, allowed <= 40 fail
+   (111) test (0, 6, 4): dim 42, allowed <= 40 fail
+   (111) test (0, 6, 5): dim 41, allowed <= 40 fail
+   (111) test (0, 6, 6): dim 41, allowed <= 40 fail
+   (111) test (0, 6, 7): dim 41, allowed <= 40 fail
+   (111) test (0, 7, 0): dim 43, allowed <= 40 fail
+   (111) test (0, 7, 1): dim 43, allowed <= 40 fail
+   (111) test (0, 7, 2): dim 43, allowed <= 40 fail
+   (111) test (0, 7, 3): dim 43, allowed <= 40 fail
+   (111) test (0, 7, 4): dim 41, allowed <= 40 fail
+   (111) test (0, 7, 5): dim 40, allowed <= 40 PASS
+   (111) test (0, 7, 6): dim 41, allowed <= 40 fail
+   (111) test (0, 7, 7): dim 39, allowed <= 40 PASS
+  stage 1 survivors: 5
+  candidates (2, 0, 0): 3  {'total': 6, 'target': 1, 'dimW': 6, 'n': 3}
+   (2, 1, 0): mixed part alone dim 11, allowed 13; pure (2, 0, 0) candidates passing: 3/3
+  candidates (0, 2, 0): 3  {'total': 6, 'target': 1, 'dimW': 6, 'n': 3}
+   (1, 2, 0): mixed part alone dim 11, allowed 13; pure (0, 2, 0) candidates passing: 3/3
+   (2, 0, 1): mixed part alone dim 24, allowed 25; pure (2, 0, 0) candidates passing: 3/3
+   (0, 2, 1): mixed part alone dim 24, allowed 25; pure (0, 2, 0) candidates passing: 3/3
+  (0, 0, 2): weight multiplicity 2 in degree (0, 0, 2)
+   (1, 0, 2): mixed part alone dim 40 <= 40? True (pure part not enumerated)
+   (0, 1, 2): mixed part alone dim 40 <= 40? True (pure part not enumerated)
+   (2, 1, 0): mixed part alone dim 11, allowed 13; pure (2, 0, 0) candidates passing: 3/3
+   (1, 2, 0): mixed part alone dim 11, allowed 13; pure (0, 2, 0) candidates passing: 3/3
+   (2, 0, 1): mixed part alone dim 25, allowed 25; pure (2, 0, 0) candidates passing: 2/3
+   (0, 2, 1): mixed part alone dim 25, allowed 25; pure (0, 2, 0) candidates passing: 2/3
+   (1, 0, 2): mixed part alone dim 38 <= 40? True (pure part not enumerated)
+   (0, 1, 2): mixed part alone dim 38 <= 40? True (pure part not enumerated)
+   (2, 1, 0): mixed part alone dim 11, allowed 13; pure (2, 0, 0) candidates passing: 3/3
+   (1, 2, 0): mixed part alone dim 11, allowed 13; pure (0, 2, 0) candidates passing: 3/3
+   (2, 0, 1): mixed part alone dim 25, allowed 25; pure (2, 0, 0) candidates passing: 2/3
+   (0, 2, 1): mixed part alone dim 25, allowed 25; pure (0, 2, 0) candidates passing: 1/3
+   (1, 0, 2): mixed part alone dim 38 <= 40? True (pure part not enumerated)
+   (0, 1, 2): mixed part alone dim 39 <= 40? True (pure part not enumerated)
+   (2, 1, 0): mixed part alone dim 11, allowed 13; pure (2, 0, 0) candidates passing: 3/3
+   (1, 2, 0): mixed part alone dim 11, allowed 13; pure (0, 2, 0) candidates passing: 3/3
+   (2, 0, 1): mixed part alone dim 25, allowed 25; pure (2, 0, 0) candidates passing: 1/3
+   (0, 2, 1): mixed part alone dim 25, allowed 25; pure (0, 2, 0) candidates passing: 2/3
+   (1, 0, 2): mixed part alone dim 39 <= 40? True (pure part not enumerated)
+   (0, 1, 2): mixed part alone dim 38 <= 40? True (pure part not enumerated)
+   (2, 1, 0): mixed part alone dim 11, allowed 13; pure (2, 0, 0) candidates passing: 3/3
+   (1, 2, 0): mixed part alone dim 11, allowed 13; pure (0, 2, 0) candidates passing: 3/3
+   (2, 0, 1): mixed part alone dim 25, allowed 25; pure (2, 0, 0) candidates passing: 1/3
+   (0, 2, 1): mixed part alone dim 25, allowed 25; pure (0, 2, 0) candidates passing: 1/3
+   (1, 0, 2): mixed part alone dim 39 <= 40? True (pure part not enumerated)
+   (0, 1, 2): mixed part alone dim 39 <= 40? True (pure part not enumerated)
+  time 0.3s

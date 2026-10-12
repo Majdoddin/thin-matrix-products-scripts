@@ -1,0 +1,4 @@
+  control S(2,2,1): >= 5, known border rank 5  [wedge B p=1 A*->C rank 9/2]
+  control S(2,3,2): >= 7, known border rank 7  [wedge A p=2 B*->C rank 37/6]
+  control S(1,2,0): >= 3, known border rank 3  [wedge C p=1 A*->B rank 5/2]
+  control S(1,3,0): >= 3, known border rank 4  [wedge B p=1 A*->C rank 5/2]

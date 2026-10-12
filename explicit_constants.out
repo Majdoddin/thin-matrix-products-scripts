@@ -1,0 +1,85 @@
+kappa_g = phi_inf^2 = 0.0833986;  (25/4)/kappa_g = 74.941  (<= 75: True)
+
+== calibration: the preprint's Corollary 26 (c = 21, theta = 1/9)
+  gamma = 0.06400, q = 0.42774, Lambda = 4.1986e+10, 4^18/Lambda = 1.6367, m0 = 58 (preprint: m >= 60)
+  rate value at c=21, q=0.43 (the preprint's Table 2): 0.064  [should be 0.0640 at eps = R_21(gamma)]
+  R_21(gamma) = 0.0567 (the preprint's Table 2: 0.056); best gamma at that eps with q = 0.4277: 0.0640
+
+== explicit squared corollary at N >= D^18 (c = 14.5, theta = 1/19)
+  gamma_box = 0.09236, q = 0.40274, 1/2 - q = 0.09726, rho_c = 0.2963, 1/(1-rho_c) = 1.4211
+  Lambda = 4.14570e+10, 4^18 = 6.87195e+10, margin 4^18/Lambda = 1.6576, m0 (bound) = 72, m0 (exact binomials) = 62
+   m=   10: ln LHS (exact binomials) =    249.01 <= ln bound =    253.79: True;  ln 4^((m-1)18) >= bound: False
+   m=   72: ln LHS (exact binomials) =   1765.76 <= ln bound =   1771.52: True;  ln 4^((m-1)18) >= bound: True
+   m=  200: ln LHS (exact binomials) =   4895.60 <= ln bound =   4901.88: True;  ln 4^((m-1)18) >= bound: True
+   m= 1001: ln LHS (exact binomials) =  24480.07 <= ln bound =  24486.27: True;  ln 4^((m-1)18) >= bound: True
+  query: 4x = 72;  sum_(d<=t) C(2m,d)4^d vs 4x D^q:
+   m=73: log_D(sum) = 0.39698 <= log_D(4x D^q) = 0.44500: True
+   m=200: log_D(sum) = 0.40852 <= log_D(4x D^q) = 0.41816: True
+   m=1000: log_D(sum) = 0.40269 <= log_D(4x D^q) = 0.40582: True
+  stated exponents: preprocessing 0.092 < 0.09236, query 0.403 > 0.40274; 0.092 + 0.403 = 0.495 <= 1/2
+
+== best explicit (split-form) instances per threshold, c in steps of 0.05, theta = 1/n, m0 <= 150
+  N>=D^10: c=8.30 theta=1/17: gamma_box=0.05105 q=0.4404 margin=1.2826 m0=101 (exact 82) -> stated gamma 0.051, eps*gamma = 0.005100; rate frontier 0.0536
+  N>=D^11: c=9.05 theta=1/17: gamma_box=0.05935 q=0.4404 margin=1.4066 m0=77 (exact 65) -> stated gamma 0.059, eps*gamma = 0.005364; rate frontier 0.0611
+  N>=D^12: c=9.90 theta=1/18: gamma_box=0.06410 q=0.4207 margin=1.2944 m0=109 (exact 90) -> stated gamma 0.064, eps*gamma = 0.005333; rate frontier 0.0677
+  N>=D^13: c=10.70 theta=1/18: gamma_box=0.07100 q=0.4207 margin=1.2846 m0=118 (exact 100) -> stated gamma 0.070, eps*gamma = 0.005385; rate frontier 0.0734
+  N>=D^14: c=11.50 theta=1/18: gamma_box=0.07735 q=0.4207 margin=1.2680 m0=131 (exact 110) -> stated gamma 0.077, eps*gamma = 0.005500; rate frontier 0.0786
+  N>=D^15: c=11.75 theta=1/18: gamma_box=0.07924 q=0.4207 margin=3.2723 m0=27 (exact 23) -> stated gamma 0.079, eps*gamma = 0.005267; rate frontier 0.0832
+  N>=D^16: c=13.05 theta=1/19: gamma_box=0.08373 q=0.4027 margin=1.3399 m0=116 (exact 97) -> stated gamma 0.083, eps*gamma = 0.005188; rate frontier 0.0874
+  N>=D^18: c=14.60 theta=1/19: gamma_box=0.09292 q=0.4027 margin=1.3888 m0=112 (exact 98) -> stated gamma 0.092, eps*gamma = 0.005111; rate frontier 0.0947
+  best stated eps*gamma: 0.005500 at N >= D^14
+
+== explicit squared corollary at N >= D^14 (instance (b): c = 11.5, theta = 1/18), the one used downstream
+  gamma_box = 0.07735, q = 0.42065, 1/2 - q = 0.07935, rho_c = 0.3810, 1/(1-rho_c) = 1.6154
+  Lambda = 2.11696e+08, 4^14 = 2.68435e+08, margin 4^14/Lambda = 1.2680, m0 (bound) = 131, m0 (exact binomials) = 110
+   m=   10: ln LHS (exact binomials) =    196.22 <= ln bound =    200.79: True;  ln 4^((m-1)14) >= bound: False
+   m=  131: ln LHS (exact binomials) =   2518.02 <= ln bound =   2522.99: True;  ln 4^((m-1)14) >= bound: True
+   m=  200: ln LHS (exact binomials) =   3840.14 <= ln bound =   3846.19: True;  ln 4^((m-1)14) >= bound: True
+   m= 1001: ln LHS (exact binomials) =  19197.52 <= ln bound =  19203.50: True;  ln 4^((m-1)14) >= bound: True
+  query: 4x = 68;  sum_(d<=t) C(2m,d)4^d vs 4x D^q:
+   m=131: log_D(sum) = 0.41864 <= log_D(4x D^q) = 0.44389: True
+   m=200: log_D(sum) = 0.42362 <= log_D(4x D^q) = 0.43587: True
+   m=1000: log_D(sum) = 0.42102 <= log_D(4x D^q) = 0.42370: True
+  stated exponents: preprocessing 0.077 < 0.07735, query 0.421 > 0.42065; 0.077 + 0.421 = 0.498 <= 1/2
+  Exact Triangle (Cor. fg(a)): g = D^(0.077/2) = D^0.0385, D = n^(1/14): eps' = 0.077/28 = 0.002750, 3 - eps' = 2.99725 (stated O(n^2.9973) absorbs the log); 3SUM 2 - eps'/2 = 1.998625, APSP 3 - eps'/3 = 2.999083
+
+== downstream exponents (exponents rounded up in the last digit)
+  preprint Cor 26 (1/18, 0.063): eps*gamma = 0.003500
+    preprint's reductions: Exact Triangle n^(3 - eg/2) = n^2.99825, 3SUM n^(2 - eg/4) = n^1.99913, APSP n^(3 - eg/6) = n^2.99942
+    Part II of the paper: 3SUM n^1.99650+o(1), Exact Triangle and APSP n^2.99650+o(1)
+  explicit squared (1/18, 0.092): eps*gamma = 0.005111
+    preprint's reductions: Exact Triangle n^(3 - eg/2) = n^2.99744, 3SUM n^(2 - eg/4) = n^1.99872, APSP n^(3 - eg/6) = n^2.99915
+    Part II of the paper: 3SUM n^1.99489+o(1), Exact Triangle and APSP n^2.99489+o(1)
+  explicit squared, instance (b) (1/14, 0.077): eps*gamma = 0.005500
+    preprint's reductions: Exact Triangle n^(3 - eg/2) = n^2.99725, 3SUM n^(2 - eg/4) = n^1.99863, APSP n^(3 - eg/6) = n^2.99908
+    Part II of the paper: 3SUM n^1.99450+o(1), Exact Triangle and APSP n^2.99450+o(1)
+  side cost check (Theorem 19's choice of p, n^(log2 7 + 1.5 eps)): eps=1/14: 2.9145; eps=1/18: 2.8907
+  rate values: split form 0.005652 -> 3SUM n^1.99435; exact form 0.005825 -> n^1.99418  (the exact-form value is computed by shared_variable_variants.py, line H)
+
+== ceiling: eps* = ln4/(5 ln5) = 0.172271  vs ln4/(5 ln10) = 0.120412 ; H(1/5) + (4/5) ln 4 - ln 5 = 0.00e+00
+  Cop82: alpha = 2 log 2/(5 log 5) = 0.172271
+   c=5.001: R'_c(0) = 0.17224
+   c=5.1: R'_c(0) = 0.16889
+   c=6: R'_c(0) = 0.14324
+   c=8: R'_c(0) = 0.10637
+   c=10: R'_c(0) = 0.08422
+  2 - eps* = 1.8277 (HLS24 remark), 2 - 0.1204 = 1.8796
+
+== the preprint's numbers at N >= D^14 (it states no corollary for this threshold)
+  E1 its Table 2, row c = 15, theta = 1/9: gamma = 0.03541 (printed 0.0354), q = 0.4277, eps = R_15(gamma) = 0.0798 (printed 0.079) >= 1/14 = 0.0714
+  E2 re-optimised over c at N >= D^14, q = 0.43: gamma = 0.04504 at c = 16.73  (the D^14 row of the rate table below)
+
+== optimum of eps*gamma in the split form, |W| <= N^2/sqrt D (rate values, Remark 6.2)
+  E3 squared: eps*gamma = 0.005652 at c = 10.56, theta = 0.0569
+  E3 Schoenhage: eps*gamma = 0.003710 at c = 22.22, theta = 0.1121
+  ratio 1.523
+
+== rate table (split form, values rounded down), Schoenhage / squared
+  threshold | q=0.25 | q=0.43 | q=0.50 | kappa=0.50 | kappa=1.00
+  N>=D^18   | 0.0340/0.0525 | 0.0660/0.1018 | 0.0797/0.1229 | 0.0667/0.0946 | 0.1570/0.2177
+  N>=D^14   | 0.0232/0.0415 | 0.0450/0.0805 | 0.0543/0.0971 | 0.0479/0.0785 | 0.1142/0.1820
+  N>=D^12   | 0.0165/0.0347 | 0.0319/0.0672 | 0.0385/0.0810 | 0.0352/0.0676 | 0.0846/0.1577
+  N>=D^10   | 0.0084/0.0264 | 0.0162/0.0511 | 0.0196/0.0617 | 0.0187/0.0536 | 0.0455/0.1257
+  N>=D^8    |   -   /0.0160 |   -   /0.0309 |   -   /0.0372 |   -   /0.0341 |   -   /0.0808
+  N>=D^6    |   -   /0.0017 |   -   /0.0033 |   -   /0.0040 |   -   /0.0039 |   -   /0.0094
+  (the q = 0.4277 query exponent of Corollary 26: Schoenhage 0.0656, squared 0.1012 at N >= D^18)

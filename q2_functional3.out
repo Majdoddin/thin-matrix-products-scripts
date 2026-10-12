@@ -1,0 +1,106 @@
+REP computation 34.3 s
+gadget search 3.1 s
+orbits 0.7 s
+84 orbits; orbits with non-constant classification: 0
+counts over all 19683 g:
+  REP 297  REP-Z 159  REP-2 105  REP-3 243
+  gadget t=1 19386  t<=2 19386  any t 19386
+  tmin distribution Counter({1: 19386, 0: 297})
+  REP and gadget(any t): 0
+  torsion of A_P: Counter({((), 3): 15678, ((), 4): 2736, ((2,), 3): 1080, ((3,), 3): 84, ((2,), 4): 54, ((), 5): 51})
+  REP-p for p>3 without REP-Z: Counter()
+joint (REP, REPZ, REP2, REP3, t1, t<=2, any t): #g
+    (False, False, False, False, True, True, True) 19386
+    (True, False, False, True, False, False, False) 84
+    (True, False, True, False, False, False, False) 54
+    (True, True, False, True, False, False, False) 108
+    (True, True, True, True, False, False, False) 51
+
+all orbits (rep = min code element):
+g=000001021 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=000001120 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABC', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=1)', 'BAC(t=1)']
+g=000001121 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=000001122 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABC', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=1)', 'BAC(t=1)']
+g=000011102 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABC', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=1)', 'BAC(t=1)']
+g=000011112 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABC', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=1)', 'BAC(t=1)']
+g=000011201 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=000011212 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=000012112 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=000012121 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABC', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=1)', 'BAC(t=1)']
+g=000012122 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001010112 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001010201 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001010202 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001010212 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001011122 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABC', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=1)', 'BAC(t=1)']
+g=001011202 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001012201 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABB', 'ABC', 'BAA', 'BAC'] any=['ABA(t=2)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=2)', 'BAC(t=1)']
+g=001012202 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001012210 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001012212 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001012220 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001012221 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001021120 size=  432 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=000001011 size=  216 REP=False Z=False F2=False F3=False tors=[] free=4 t1=['ABC', 'BAC'] any=['ABA(t=2)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=2)', 'BAC(t=1)']
+g=000001012 size=  216 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=000001110 size=  216 REP=False Z=False F2=False F3=False tors=[] free=4 t1=['ABC', 'BAC'] any=['ABA(t=2)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=2)', 'BAC(t=1)']
+g=000001111 size=  216 REP=False Z=False F2=False F3=False tors=[] free=4 t1=['ABC', 'BAC'] any=['ABA(t=2)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=2)', 'BAC(t=1)']
+g=000001112 size=  216 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABC', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=1)', 'BAC(t=1)']
+g=000001220 size=  216 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABC', 'BAC'] any=['ABA(t=2)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=2)', 'BAC(t=1)']
+g=000001221 size=  216 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=000001222 size=  216 REP=False Z=False F2=False F3=False tors=[] free=4 t1=['ABA', 'ABC', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=1)', 'BAC(t=1)']
+g=000011012 size=  216 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=000011101 size=  216 REP=False Z=False F2=False F3=False tors=[] free=4 t1=['ABC', 'BAC'] any=['ABA(t=2)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=2)', 'BAC(t=1)']
+g=000011122 size=  216 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABC', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=1)', 'BAC(t=1)']
+g=000011202 size=  216 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABC', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=1)', 'BAC(t=1)']
+g=000011211 size=  216 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=000011222 size=  216 REP=False Z=False F2=False F3=False tors=[] free=4 t1=['ABA', 'ABC', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=1)', 'BAC(t=1)']
+g=000012102 size=  216 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=000012111 size=  216 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABC', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=1)', 'BAC(t=1)']
+g=000012120 size=  216 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABC', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=1)', 'BAC(t=1)']
+g=000112121 size=  216 REP=False Z=False F2=False F3=False tors=[] free=4 t1=['ABA', 'ABC', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=1)', 'BAC(t=1)']
+g=000112122 size=  216 REP=False Z=False F2=False F3=False tors=[] free=4 t1=['ABA', 'ABC', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=1)', 'BAC(t=1)']
+g=001001120 size=  216 REP=False Z=False F2=False F3=False tors=[2] free=3 t1=['ABA', 'BAB'] any=['ABA(t=1)', 'BAB(t=1)']
+g=001001122 size=  216 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'BAB'] any=['ABA(t=1)', 'BAB(t=1)']
+g=001002121 size=  216 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001010101 size=  216 REP=False Z=False F2=False F3=False tors=[] free=4 t1=['ABC', 'BAC'] any=['ABA(t=2)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=2)', 'BAC(t=1)']
+g=001010102 size=  216 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001010122 size=  216 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABC', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=1)', 'BAC(t=1)']
+g=001011112 size=  216 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABC', 'BAC'] any=['ABA(t=2)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=2)', 'BAC(t=1)']
+g=001011120 size=  216 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABC', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=1)', 'BAC(t=1)']
+g=001012120 size=  216 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001012121 size=  216 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001012200 size=  216 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001021110 size=  216 REP=False Z=False F2=False F3=False tors=[2] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001021112 size=  216 REP=False Z=False F2=False F3=False tors=[2] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001110220 size=  216 REP=False Z=False F2=False F3=False tors=[2] free=3 t1=['ABB', 'BAA'] any=['ABB(t=1)', 'BAA(t=1)']
+g=001120212 size=  216 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'BAB'] any=['ABA(t=1)', 'BAB(t=1)']
+g=000000011 size=  108 REP=False Z=False F2=False F3=False tors=[] free=4 t1=['ABC', 'BAC'] any=['ABA(t=2)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=2)', 'BAC(t=1)']
+g=000000012 size=  108 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABC', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=1)', 'BAC(t=1)']
+g=000000112 size=  108 REP=False Z=False F2=False F3=False tors=[] free=4 t1=['ABA', 'BAB'] any=['ABA(t=1)', 'BAB(t=1)']
+g=000001010 size=  108 REP=False Z=False F2=False F3=False tors=[] free=4 t1=['ABC', 'BAC'] any=['ABA(t=2)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=2)', 'BAC(t=1)']
+g=000001020 size=  108 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABC', 'BAC'] any=['ABA(t=2)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=2)', 'BAC(t=1)']
+g=000011022 size=  108 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABB', 'ABC', 'BAA', 'BAC'] any=['ABA(t=2)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=2)', 'BAC(t=1)']
+g=000112112 size=  108 REP=False Z=False F2=False F3=False tors=[] free=4 t1=['ABA', 'BAB'] any=['ABA(t=1)', 'BAB(t=1)']
+g=000112221 size=  108 REP=False Z=False F2=False F3=False tors=[] free=4 t1=['ABA', 'BAB'] any=['ABA(t=1)', 'BAB(t=1)']
+g=001002120 size=  108 REP=False Z=False F2=False F3=False tors=[2] free=3 t1=['ABA', 'ABB', 'BAA', 'BAB'] any=['ABA(t=1)', 'ABB(t=1)', 'BAA(t=1)', 'BAB(t=1)']
+g=001010200 size=  108 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABC', 'BAC'] any=['ABA(t=2)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=2)', 'BAC(t=1)']
+g=001010211 size=  108 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001012122 size=  108 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001120210 size=  108 REP=False Z=False F2=False F3=False tors=[2] free=3 t1=['ABA', 'ABB', 'BAA', 'BAB'] any=['ABA(t=1)', 'ABB(t=1)', 'BAA(t=1)', 'BAB(t=1)']
+g=001022121 size=   72 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001112220 size=   72 REP=True  Z=False F2=False F3=True  tors=[3] free=3 t1=[] any=[]
+g=000000001 size=   54 REP=False Z=False F2=False F3=False tors=[] free=4 t1=['ABC', 'BAC'] any=['ABA(t=2)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=2)', 'BAC(t=1)']
+g=000011011 size=   54 REP=False Z=False F2=False F3=False tors=[] free=4 t1=['ABC', 'BAC'] any=['ABA(t=2)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=2)', 'BAC(t=1)']
+g=000012021 size=   54 REP=False Z=False F2=False F3=False tors=[] free=3 t1=['ABA', 'ABB', 'ABC', 'BAA', 'BAB', 'BAC'] any=['ABA(t=1)', 'ABB(t=1)', 'ABC(t=1)', 'BAA(t=1)', 'BAB(t=1)', 'BAC(t=1)']
+g=001001110 size=   54 REP=True  Z=False F2=True  F3=False tors=[2] free=4 t1=[] any=[]
+g=001001112 size=   54 REP=True  Z=True  F2=False F3=True  tors=[] free=4 t1=[] any=[]
+g=001001220 size=   54 REP=True  Z=True  F2=False F3=True  tors=[] free=4 t1=[] any=[]
+g=000000111 size=   36 REP=True  Z=True  F2=True  F3=True  tors=[] free=5 t1=[] any=[]
+g=001010100 size=   36 REP=False Z=False F2=False F3=False tors=[] free=4 t1=['ABC', 'BAC'] any=['ABA(t=2)', 'ABB(t=2)', 'ABC(t=1)', 'BAA(t=2)', 'BAB(t=2)', 'BAC(t=1)']
+g=000111222 size=   12 REP=True  Z=True  F2=True  F3=True  tors=[] free=5 t1=[] any=[]
+g=012120201 size=   12 REP=True  Z=False F2=False F3=True  tors=[3] free=3 t1=[] any=[]
+g=000000000 size=    3 REP=True  Z=True  F2=True  F3=True  tors=[] free=5 t1=[] any=[]
+
+0 third-class orbits
+runtime 38.2 s

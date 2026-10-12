@@ -1,0 +1,28 @@
+brute-force cross-check mismatches: 0
+22 orbits
+relations with REP and t=1 gadget: 0 ; with neither: 0
+REP but neither REP-Z nor REP-2: 0
+gadget any t but not t=1: 0
+∅                                orbit= 1 REP=True  Z=True  F2=True  F3=True  tors=[] free=6 gadget_t1=[]
+000                              orbit= 8 REP=True  Z=True  F2=True  F3=True  tors=[] free=6 gadget_t1=[]
+000 001                          orbit=12 REP=True  Z=True  F2=True  F3=True  tors=[] free=5 gadget_t1=[]
+001 010                          orbit=12 REP=True  Z=True  F2=True  F3=True  tors=[] free=5 gadget_t1=[]
+011 100                          orbit= 4 REP=True  Z=True  F2=True  F3=True  tors=[] free=5 gadget_t1=[]
+000 001 010                      orbit=24 REP=False Z=False F2=False F3=False tors=[] free=4 gadget_t1=['CAB', 'CBA']
+001 010 100                      orbit= 8 REP=True  Z=True  F2=False F3=True  tors=[] free=4 gadget_t1=[]
+000 011 100                      orbit=24 REP=False Z=False F2=False F3=False tors=[] free=4 gadget_t1=['ABB', 'BAA']
+000 001 010 011                  orbit= 6 REP=True  Z=True  F2=True  F3=True  tors=[] free=4 gadget_t1=[]
+000 001 010 100                  orbit= 8 REP=False Z=False F2=False F3=False tors=[] free=3 gadget_t1=['ABC', 'ACB', 'BAC', 'BCA', 'CAB', 'CBA']
+000 001 011 100                  orbit=24 REP=False Z=False F2=False F3=False tors=[] free=3 gadget_t1=['ACB', 'BCA', 'CAB', 'CBA']
+001 010 011 100                  orbit=24 REP=False Z=False F2=False F3=False tors=[] free=3 gadget_t1=['CAB', 'CBA']
+010 011 100 101                  orbit= 6 REP=True  Z=True  F2=True  F3=True  tors=[] free=4 gadget_t1=[]
+000 011 101 110                  orbit= 2 REP=True  Z=False F2=True  F3=False tors=[2] free=3 gadget_t1=[]
+000 001 010 011 100              orbit=24 REP=False Z=False F2=False F3=False tors=[] free=3 gadget_t1=['ABC', 'ACB', 'BAC', 'BCA']
+000 010 011 100 101              orbit=24 REP=False Z=False F2=False F3=False tors=[] free=3 gadget_t1=['ABC', 'ACB', 'BAC', 'BCA', 'CAB', 'CBA']
+000 001 011 101 110              orbit= 8 REP=False Z=False F2=False F3=False tors=[] free=3 gadget_t1=['ABC', 'ACB', 'BAC', 'BCA', 'CAB', 'CBA']
+000 001 010 011 100 101          orbit=12 REP=False Z=False F2=False F3=False tors=[] free=3 gadget_t1=['ABC', 'BAC']
+000 001 010 011 101 110          orbit=12 REP=False Z=False F2=False F3=False tors=[] free=3 gadget_t1=['ABC', 'ACB', 'BAC', 'BCA']
+001 010 011 100 101 110          orbit= 4 REP=False Z=False F2=False F3=False tors=[] free=3 gadget_t1=['ABC', 'ACB', 'BAC', 'BCA', 'CAB', 'CBA']
+000 001 010 011 100 101 110      orbit= 8 REP=False Z=False F2=False F3=False tors=[] free=3 gadget_t1=['ABC', 'ACB', 'BAC', 'BCA', 'CAB', 'CBA']
+000 001 010 011 100 101 110 111  orbit= 1 REP=True  Z=True  F2=True  F3=True  tors=[] free=3 gadget_t1=[]
+runtime 1.4 s

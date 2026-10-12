@@ -1,0 +1,5 @@
+G(2,2,1) Schoenhage, border 5 (control yes): best residuals^2 (max|param|): 3.4e-33 (2), 1.5e-32 (3), 1.9e-32 (2), 3.0e-32 (3)
+S(2,2,1) Part I tensor, border 5 (control yes): best residuals^2 (max|param|): 2.7e-06 (247), 2.8e-06 (189), 2.8e-06 (140), 2.8e-06 (236)
+S(2,2,2), Remark A.7: >= 6 (control no): best residuals^2 (max|param|): 1.0e+00 (78), 1.0e+00 (138), 1.0e+00 (153), 1.0e+00 (241)
+G(2,2,3), Proposition A.4: >= 6 (control no): best residuals^2 (max|param|): 2.0e+00 (3), 2.0e+00 (2), 2.0e+00 (3), 2.0e+00 (2)
+G(2,2,2), open: border 5?: best residuals^2 (max|param|): 1.0e+00 (2), 1.0e+00 (2), 1.0e+00 (3), 1.0e+00 (2)

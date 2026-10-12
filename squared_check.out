@@ -1,0 +1,27 @@
+Part A: deterministic hashes by conditional expectations
+  L= 4 m=1: K_g =    4 of C(L,m) =    4; phi_m phi_(L-m) C(L,m) =     0.66; ratio K_g/C = 1.0000
+  L= 4 m=2: K_g =    5 of C(L,m) =    6; phi_m phi_(L-m) C(L,m) =     0.84; ratio K_g/C = 0.8333
+  L= 6 m=2: K_g =   12 of C(L,m) =   15; phi_m phi_(L-m) C(L,m) =     1.73; ratio K_g/C = 0.8000
+  L= 8 m=2: K_g =   21 of C(L,m) =   28; phi_m phi_(L-m) C(L,m) =     3.08; ratio K_g/C = 0.7500
+  L= 9 m=3: K_g =   56 of C(L,m) =   84; phi_m phi_(L-m) C(L,m) =     8.09; ratio K_g/C = 0.6667
+  L=10 m=2: K_g =   33 of C(L,m) =   45; phi_m phi_(L-m) C(L,m) =     4.89; ratio K_g/C = 0.7333
+  L=11 m=3: K_g =  104 of C(L,m) =  165; phi_m phi_(L-m) C(L,m) =    15.70; ratio K_g/C = 0.6303
+Part B: correctness of the squared run, 2m+1 runs
+  L=2+2, m=1+1: K_g=2, 64 read outputs, 3 runs: 0 wrong; control without the split: 48 wrong
+  L=3+3, m=1+1: K_g=3, 2304 read outputs, 3 runs: 0 wrong; control without the split: 2128 wrong
+ Part C:
+  alpha'_d = [1, 8, 16] for every read output; beta'_d = [2304, 6144, 4096] (exact count); |Leaves(U)| <= bound in 20 random U (max ratio 0.945)
+ Part D: data structure with balanced boxes
+  t=0: 2304 queries, 0 wrong; 23296 balanced boxes <= (2m+1) sum_(d>=t) beta'_d = 37632
+  t=1: 2304 queries, 0 wrong; 16384 balanced boxes <= (2m+1) sum_(d>=t) beta'_d = 30720
+  t=2: 2304 queries, 0 wrong; 4096 balanced boxes <= (2m+1) sum_(d>=t) beta'_d = 12288
+  L=3+3, m=2+2: K_g=3, 144 read outputs, 5 runs: 0 wrong; control without the split: 108 wrong
+ Part C:
+  alpha'_d = [1, 16, 96, 256, 256] for every read output; beta'_d = [144, 1152, 3840, 6144, 4096] (exact count); |Leaves(U)| <= bound in 20 random U (max ratio 1.000)
+ Part D: data structure with balanced boxes
+  t=0: 144 queries, 0 wrong; 33232 balanced boxes <= (2m+1) sum_(d>=t) beta'_d = 76880
+  t=1: 144 queries, 0 wrong; 32512 balanced boxes <= (2m+1) sum_(d>=t) beta'_d = 76160
+  t=2: 144 queries, 0 wrong; 27904 balanced boxes <= (2m+1) sum_(d>=t) beta'_d = 70400
+  t=3: 144 queries, 0 wrong; 16384 balanced boxes <= (2m+1) sum_(d>=t) beta'_d = 51200
+  t=4: 144 queries, 0 wrong; 4096 balanced boxes <= (2m+1) sum_(d>=t) beta'_d = 20480
+  L=4+4, m=2+2: K_g=5, 6400 read outputs, 5 runs: 0 wrong; control without the split: 5965 wrong

@@ -1,0 +1,16 @@
+schoenhage: y_f=0.13518  c_min (gamma_exact=0) = 9.31681  (split form needs c > 10)
+   eps at c_min, gamma=0: 0.12923   vs split ceiling 2 ln q/(R ln R) = 0.12041
+   A(c_min)/ln q = 7.7384  T/ln q = 7.7365
+   c=9.3268: gamma_exact=0.00011 eps=0.12909
+   c=9.4168: gamma_exact=0.00113 eps=0.12784
+   c=9.5000: gamma_exact=0.00206 eps=0.12671
+   c=10.0000: gamma_exact=0.00735 eps=0.12031
+   c=10.5000: gamma_exact=0.01224 eps=0.11451
+squared: y_f=0.06897  c_min (gamma_exact=0) = 4.82680  (split form needs c > 5)
+   eps at c_min, gamma=0: 0.17843   vs split ceiling 2 ln q/(R ln R) = 0.17227
+   A(c_min)/ln q = 5.6043  T/ln q = 5.6032
+   c=4.8368: gamma_exact=0.00025 eps=0.17806
+   c=4.9268: gamma_exact=0.00250 eps=0.17475
+   c=4.5000: gamma_exact=-0.00976 eps=0.19159
+   c=5.0000: gamma_exact=0.00427 eps=0.17214
+   c=5.5000: gamma_exact=0.01522 eps=0.15613

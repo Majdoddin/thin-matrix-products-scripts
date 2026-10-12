@@ -1,0 +1,10 @@
+A  relations over 3 letters with all 27 Boolean minors representable: 22100
+B  of these, with an OV gadget of some size: 0
+C  random relations with a non-representable Boolean minor: 2000, with a gadget of size 1: 2000
+D  not representable, no gadget (third class): 1296 relations in 4 orbits (group order 1296)
+     orbit size  216  |P| = 5  P = 010 022 102 111 200  torsion [] free 5  closure witness (2, 2, 1)
+     orbit size  648  |P| = 6  P = 001 010 022 102 111 200  torsion [] free 4  closure witness (2, 2, 1)
+     orbit size  324  |P| = 7  P = 001 010 022 102 111 120 200  torsion [3] free 3  closure witness (2, 1, 2)
+     orbit size  108  |P| = 8  P = 000 012 021 102 111 120 201 210  torsion [3] free 3  closure witness (2, 2, 2)
+E  {a+b+c = 0 mod 3} minus {000}: REP False, closure witness (0, 0, 0), gadget of some size False, in the third class above True
+runtime 19.0 s

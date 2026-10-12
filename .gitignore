@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+/enum_functional
+/locrep
+locrep4_sample.bin
+q2_functional3.pkl
+*.err

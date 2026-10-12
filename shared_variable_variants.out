@@ -1,0 +1,6 @@
+check (profile_model.py, Schoenhage 3,3): 0.003935
+H  independent grid = squared construction S: eps*gamma=0.005825  c=10.22 gamma=0.0712 eps=0.0818
+A  shared right block per tile (hash): eps*gamma=0.004903  c=11.03 gamma=0.0767 eps=0.0639
+K1 one product per run: no gamma > 0
+B  packing, GV (rigorous): no gamma > 0
+B  packing, ideal (ceiling): no gamma > 0

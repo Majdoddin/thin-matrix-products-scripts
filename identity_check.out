@@ -1,0 +1,12 @@
+1. Cop82's five terms: coefficients of xi^0, xi^1 vanish, coefficient of xi^2 is T (6 monomials). OK
+2. Renamed terms at xi=1 equal Cop82's terms at xi=1, and their sum is G + E. OK
+   column sums of phat: [p1, 0]  row sums of qhat: [0, 0]
+   E = p1*y1*z11 + p2*q*z22 - p2*y2*z12 + p2*y2*z22 - q*x2*z21 + q*x2*z22 (6 monomials)
+3. G: all monomials weight 2; E: weights [3, 3, 3, 3, 4, 4] ; every E monomial has an outer output and an inner input. OK
+   P11: phi = p1 + x1, psi = y1, chi = z0 + z11; contributes to [z11, z0]
+   P12: phi = -p2 + x1, psi = y2, chi = z0 + z12; contributes to [z12, z0]
+   P21: phi = x2, psi = -q + y1, chi = z0 + z21; contributes to [z21, z0]
+   P22: phi = p2 + x2, psi = q + y2, chi = z0 + z22; contributes to [z22, z0]
+   P0: phi = -x1 - x2, psi = y1 + y2, chi = z0; contributes to [z0]
+4. z0 in all five terms with coefficient 1; z_ij only in P_ij. OK
+5. of the four sign choices for the two signs illegible in the scanned copy of Cop82, only (-, -) gives xi^2 T + O(xi^3). OK

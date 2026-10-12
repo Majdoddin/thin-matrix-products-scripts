@@ -1,0 +1,14 @@
+robust (no lambda0) q= 2 g= 1  min Gamma/m=+0.6945 at c=2.07
+robust (no lambda0) q= 2 g= 2  min Gamma/m=+0.0004 at c=2.93
+robust (no lambda0) q= 4 g= 1  min Gamma/m=+1.3876 at c=2.07
+robust (no lambda0) q= 4 g= 2  min Gamma/m=+0.6936 at c=2.93
+robust (no lambda0) q= 4 g= 4  min Gamma/m=+0.0000 at c=4.98
+robust (no lambda0) q= 8 g= 1  min Gamma/m=+1.7675 at c=1.05
+robust (no lambda0) q= 8 g= 2  min Gamma/m=+1.3867 at c=2.93
+robust (no lambda0) q= 8 g= 4  min Gamma/m=+0.6932 at c=4.98
+robust (no lambda0) q= 8 g= 8  min Gamma/m=+0.0000 at c=9.00
+robust (no lambda0) q=16 g= 1  min Gamma/m=+2.1141 at c=1.05
+robust (no lambda0) q=16 g= 2  min Gamma/m=+1.8264 at c=1.05
+robust (no lambda0) q=16 g= 4  min Gamma/m=+1.3863 at c=4.98
+robust (no lambda0) q=16 g= 8  min Gamma/m=+0.6952 at c=9.55
+robust (no lambda0) q=16 g=16  min Gamma/m=+0.0002 at c=16.64

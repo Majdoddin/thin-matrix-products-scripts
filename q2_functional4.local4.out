@@ -1,0 +1,5 @@
+A  all relations over 3 letters: 2^27, group order 1296, orbits 111618 (about 1.12e+05)
+A  all relations over 4 letters: 2^64, group order 82944, orbits 222464035614910 (about 2.22e+14)
+B  locrep: representable Boolean relations: 60; k=4 minors=216 ; k=4 locally representable relations: 186526704
+C  uniform sample of 20000 of them (evidence only): {'not REP': 10979, 'REP': 9021}
+runtime 160.6 s

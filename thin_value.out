@@ -1,0 +1,49 @@
+squares: b 2 first k with allowed eps*gamma > 0.005825: 51  (value 0.00584)
+squares: b 3 first k with allowed eps*gamma > 0.005825: 62  (value 0.00609)
+squares: b 4 first k with allowed eps*gamma > 0.005825: 74  (value 0.00591)
+squares: b 5 first k with allowed eps*gamma > 0.005825: 87  (value 0.00596)
+squares: b 6 first k with allowed eps*gamma > 0.005825: 100  (value 0.00602)
+squares: b 8 first k with allowed eps*gamma > 0.005825: 125  (value 0.00596)
+squares: b 10 first k with allowed eps*gamma > 0.005825: 150  (value 0.00600)
+squares: b 16 first k with allowed eps*gamma > 0.005825: 222  (value 0.00591)
+squares: b 32 first k with allowed eps*gamma > 0.005825: 407  (value 0.00585)
+rect: b 2 smallest o1 with some o2 allowing > 0.005825: o1=42 (o2=224, value 0.00583)
+rect: b 3 smallest o1 with some o2 allowing > 0.005825: o1=48 (o2=256, value 0.00591)
+rect: b 4 smallest o1 with some o2 allowing > 0.005825: o1=56 (o2=396, value 0.00589)
+rect: b 6 smallest o1 with some o2 allowing > 0.005825: o1=73 (o2=683, value 0.00587)
+rect: b 10 smallest o1 with some o2 allowing > 0.005825: o1=107 (o2=1151, value 0.00591)
+sup: b 2 max allowed eps*gamma 0.01950 at k=2771
+sup: b 3 max allowed eps*gamma 0.02898 at k=5129
+sup: b 4 max allowed eps*gamma 0.03497 at k=8139
+sup: b 5 max allowed eps*gamma 0.03923 at k=11073
+sup: b 6 max allowed eps*gamma 0.04249 at k=15065
+sup: b 8 max allowed eps*gamma 0.04726 at k=23906
+sup: b 10 max allowed eps*gamma 0.05065 at k=35126
+sup: b 12 max allowed eps*gamma 0.05325 at k=47789
+sup: b 16 max allowed eps*gamma 0.05706 at k=75835
+sup: b 20 max allowed eps*gamma 0.05979 at k=111426
+sup: b 25 max allowed eps*gamma 0.06233 at k=163722
+sup: b 32 max allowed eps*gamma 0.06493 at k=206242
+sup: b 40 max allowed eps*gamma 0.06701 at k=206242
+sup: b 50 max allowed eps*gamma 0.06879 at k=206242
+sup: b 64 max allowed eps*gamma 0.07042 at k=206242
+sup: b 80 max allowed eps*gamma 0.07159 at k=206242
+sup: b 100 max allowed eps*gamma 0.07246 at k=206242
+sup: b 128 max allowed eps*gamma 0.07308 at k=206242
+sup: b 160 max allowed eps*gamma 0.07332 at k=206242
+sup: b 200 max allowed eps*gamma 0.07326 at k=206242
+sup: b 256 max allowed eps*gamma 0.07284 at k=206242
+sup: b 320 max allowed eps*gamma 0.07214 at k=206242
+sup: b 400 max allowed eps*gamma 0.07113 at k=206242
+sup: b 512 max allowed eps*gamma 0.06966 at k=206242
+sup: b 640 max allowed eps*gamma 0.06801 at k=206242
+sup: b 800 max allowed eps*gamma 0.06605 at k=206242
+sup: b 1000 max allowed eps*gamma 0.06379 at k=206242
+sup: b 1300 max allowed eps*gamma 0.06074 at k=206242
+sup: b 1600 max allowed eps*gamma 0.05804 at k=206242
+sup: b 2000 max allowed eps*gamma 0.05484 at k=206242
+sup: b 2600 max allowed eps*gamma 0.05071 at k=206242
+sup: b 3200 max allowed eps*gamma 0.04716 at k=206242
+sup: b 4000 max allowed eps*gamma 0.04307 at k=206242
+sup: b 5000 max allowed eps*gamma 0.03871 at k=206242
+sup: overall 0.07332 at (206242, 160, 206242) (k is capped by the sample, so the supremum is at least this)

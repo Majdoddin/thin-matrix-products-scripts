@@ -1,0 +1,24 @@
+grouped q= 2 g= 1 R=  5  min Gamma/m=+1.1005 at c=1.73
+grouped q= 2 g= 2 R=  4  min Gamma/m=+0.6945 at c=2.07
+grouped q= 4 g= 1 R=  9  min Gamma/m=+1.5387 at c=1.05
+grouped q= 4 g= 2 R=  7  min Gamma/m=+1.0997 at c=2.42
+grouped q= 4 g= 4 R=  6  min Gamma/m=+0.6936 at c=2.93
+grouped q= 6 g= 1 R= 13  min Gamma/m=+1.7037 at c=1.05
+grouped q= 6 g= 2 R= 10  min Gamma/m=+1.3873 at c=2.59
+grouped q= 6 g= 3 R=  9  min Gamma/m=+1.0991 at c=2.93
+grouped q= 6 g= 6 R=  8  min Gamma/m=+0.6932 at c=3.95
+grouped q= 8 g= 1 R= 17  min Gamma/m=+1.8281 at c=1.05
+grouped q= 8 g= 2 R= 13  min Gamma/m=+1.5599 at c=1.05
+grouped q= 8 g= 4 R= 11  min Gamma/m=+1.0988 at c=3.61
+grouped q= 8 g= 8 R= 10  min Gamma/m=+0.6932 at c=4.98
+grouped q=12 g= 1 R= 25  min Gamma/m=+2.0111 at c=1.05
+grouped q=12 g= 2 R= 19  min Gamma/m=+1.7366 at c=1.05
+grouped q=12 g= 3 R= 17  min Gamma/m=+1.6095 at c=3.44
+grouped q=12 g= 4 R= 16  min Gamma/m=+1.3864 at c=3.95
+grouped q=12 g= 6 R= 15  min Gamma/m=+1.0986 at c=4.98
+grouped q=12 g=12 R= 14  min Gamma/m=+0.6963 at c=6.50
+grouped q=16 g= 1 R= 33  min Gamma/m=+2.1449 at c=1.05
+grouped q=16 g= 2 R= 25  min Gamma/m=+1.8672 at c=1.05
+grouped q=16 g= 4 R= 21  min Gamma/m=+1.6097 at c=4.12
+grouped q=16 g= 8 R= 19  min Gamma/m=+1.0990 at c=6.50
+grouped q=16 g=16 R= 18  min Gamma/m=+0.6952 at c=9.55

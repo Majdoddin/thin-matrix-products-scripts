@@ -1,0 +1,4 @@
+  S(2, 2, 2): >= (6, 'wedge C p=2 A*->B rank 31/6')
+  S(2, 3, 3): >= (8, 'wedge C p=2 A*->B rank 44/6')
+  S(2, 3, 5): >= (10, 'wedge C p=2 A*->B rank 56/6')
+  S(2, 2, 3): >= (7, 'wedge C p=2 A*->B rank 37/6')

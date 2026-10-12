@@ -1,0 +1,14 @@
+== S(2,2,2), r = 5 (general enumeration with P^1 families)
+symmetry: {'dim_stab': 16, 'dim_torus': 7, 'dim_g0': 7, 'n_pos': 2, 'dim_check': 16}
+  candidates (1, 1, 0): 1 {'forced': True}
+  candidates (1, 0, 1): 8 {'total': 25, 'target': 20, 'dimW': 21, 'n': 8, 'families': 0}
+  candidates (0, 1, 1): 1 {'forced': True}
+   (111) (0, 0, 0): generic dim 98, allowed <= 95, drops []: fail
+   (111) (0, 1, 0): generic dim 99, allowed <= 95, drops []: fail
+   (111) (0, 2, 0): generic dim 99, allowed <= 95, drops []: fail
+   (111) (0, 3, 0): generic dim 99, allowed <= 95, drops []: fail
+   (111) (0, 4, 0): generic dim 99, allowed <= 95, drops []: fail
+   (111) (0, 5, 0): generic dim 99, allowed <= 95, drops []: fail
+   (111) (0, 6, 0): generic dim 99, allowed <= 95, drops []: fail
+   (111) (0, 7, 0): generic dim 98, allowed <= 95, drops []: fail
+  (111) survivors: 0

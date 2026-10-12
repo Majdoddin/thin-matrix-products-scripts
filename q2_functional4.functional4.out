@@ -1,0 +1,67 @@
+enumeration k=2: 4 representatives, Burnside 4, sum of orbit sizes 16 (= 2^4: True)
+enumeration k=3: 84 representatives, Burnside 84, sum of orbit sizes 19683 (= 3^9: True)
+A  k=4: group order 27648; Burnside 167342 orbits; enumerated 167342 representatives; sum of orbit sizes 4294967296 (= 4^16: True); agree: True
+   enumeration 9.1 s
+   gadget search 57.9 s
+   lattice tests 1810.9 s
+B  Boolean relations representable: 60 of 256; Proposition 20.14(d) on every orbit (gadget of some size <=> some Boolean minor not representable): 167342 of 167342 agree
+C  orbits per class: {'REP': 42, 'gadget': 167296, 'neither': 4}
+D  maps per class:   {'REP': 59776, 'gadget': 4294891968, 'neither': 15552}
+E  representable and with a gadget: 0
+F  gadget orbits by least size and kind: {(1, 'slice'): 165800, (1, 'identification only'): 1496}; maps by least size: {1: 4294891968}
+G  representable orbits by the groups they need (orbits, maps):
+     F2 only                       13   14700
+     F3 only                        3    5760
+     Z                              5   12096
+     Z, F2, F3                      8    1684
+     Z, F3                          4    2352
+     exponent 4 only                9   23184
+H  representable orbits (representative g rows a=0..3, orbit size, torsion and free rank of A_P, groups):
+     0012/0012/1103/3321   3456  torsion [2, 2] free 3  F2,exp4
+     0001/0001/1110/2223   2304  torsion [2] free 4  F2,exp4
+     0011/0011/1100/2233   1728  torsion [2] free 4  F2,exp4
+     0012/0012/1103/2230   1728  torsion [2, 2] free 3  F2,exp4
+     0012/1103/2230/3321   1728  torsion [2, 2] free 3  F2,exp4
+     0001/0001/2223/3332   1152  torsion [2] free 4  F2,exp4
+     0011/0011/2233/3322    864  torsion [2] free 4  F2,exp4
+     0001/1110/2223/3332    576  torsion [2] free 4  F2,exp4
+     0011/1100/2233/3322    432  torsion [2] free 4  F2,exp4
+     0001/0001/1110/1110    288  torsion [2] free 5  F2,exp4
+     0001/0001/0001/1110    192  torsion [2] free 5  F2,exp4
+     0123/1032/2301/3210    144  torsion [2, 2] free 3  F2,exp4
+     0011/0011/1100/1100    108  torsion [2] free 5  F2,exp4
+     0001/0001/1112/2220   2304  torsion [3] free 4  F3
+     0011/0011/1122/2200   1728  torsion [3] free 4  F3
+     0012/0012/1120/2201   1728  torsion [3] free 4  F3
+     0011/0011/1122/2233   3456  torsion [] free 4  Z,F5,F7,exp4
+     0001/0001/1112/2223   2304  torsion [] free 4  Z,F5,F7,exp4
+     0001/0001/1112/3330   2304  torsion [] free 4  Z,F5,F7,exp4
+     0001/0001/2220/3332   2304  torsion [] free 4  Z,F5,F7,exp4
+     0011/0011/1122/3300   1728  torsion [] free 4  Z,F5,F7,exp4
+     0001/0001/2223/2223    576  torsion [] free 5  Z,F2,F3,F5,F7,exp4
+     0001/0001/0001/2223    384  torsion [] free 5  Z,F2,F3,F5,F7,exp4
+     0000/0000/1111/2222    288  torsion [] free 6  Z,F2,F3,F5,F7,exp4
+     0011/0011/2233/2233    216  torsion [] free 5  Z,F2,F3,F5,F7,exp4
+     0000/0000/0000/1111     96  torsion [] free 6  Z,F2,F3,F5,F7,exp4
+     0000/0000/1111/1111     72  torsion [] free 6  Z,F2,F3,F5,F7,exp4
+     0000/1111/2222/3333     48  torsion [] free 6  Z,F2,F3,F5,F7,exp4
+     0000/0000/0000/0000      4  torsion [] free 6  Z,F2,F3,F5,F7,exp4
+     0001/0001/1112/1112   1152  torsion [] free 5  Z,F3,F5,F7,exp4
+     0011/0011/1122/1122    432  torsion [] free 5  Z,F3,F5,F7,exp4
+     0001/0001/0001/1112    384  torsion [] free 5  Z,F3,F5,F7,exp4
+     0001/0001/0001/2220    384  torsion [] free 5  Z,F3,F5,F7,exp4
+     0012/0012/1123/3301   6912  torsion [4] free 3  exp4
+     0012/0012/1103/2231   3456  torsion [4] free 3  exp4
+     0012/0012/1103/3320   3456  torsion [4] free 3  exp4
+     0012/1103/2231/3320   3456  torsion [4] free 3  exp4
+     0012/0012/1130/2203   1728  torsion [4] free 3  exp4
+     0012/1130/2203/3321   1728  torsion [4] free 3  exp4
+     0001/1112/2223/3330   1152  torsion [4] free 3  exp4
+     0011/1122/2233/3300    864  torsion [4] free 3  exp4
+     0123/1032/2310/3201    432  torsion [4] free 3  exp4
+I  third-class orbits (not representable, no gadget of any size): 4, 15552 maps
+     0012/0012/1120/3301  orbit size 6912  torsion [3] free 3  closure witness (0, 3, 3)
+     0012/0012/1120/2203  orbit size 3456  torsion [3] free 3  closure witness (0, 2, 3)
+     0012/0012/1120/2231  orbit size 3456  torsion [3] free 3  closure witness (0, 0, 3)
+     0012/0012/1123/2231  orbit size 1728  torsion [3] free 3  closure witness (0, 0, 3)
+runtime 1880.3 s
